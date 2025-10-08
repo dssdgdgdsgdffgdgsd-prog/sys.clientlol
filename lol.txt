@@ -332,7 +332,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         YesIcon.BackgroundTransparency = 1.000
         YesIcon.Position = UDim2.new(0.5, 0, 0.5, 0)
         YesIcon.Size = UDim2.new(0, 20, 0, 20)
-        YesIcon.Image = nil
+        YesIcon.Image = "rbxassetid://91239359890118"
         
         Animate:CreateGradient(YesButton)
         
@@ -361,7 +361,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         NoIcon.BackgroundTransparency = 1.000
         NoIcon.Position = UDim2.new(0.5, 0, 0.5, 0)
         NoIcon.Size = UDim2.new(0, 20, 0, 20)
-        NoIcon.Image = nil
+        NoIcon.Image = "rbxassetid://91239359890118"
         
         BarFrame.Name = "BarFrame"
         BarFrame.Parent = Template
@@ -1014,7 +1014,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 IconEnable.Position = UDim2.new(0.949999988, 0, 0.5, 0)
                 IconEnable.Size = UDim2.new(0, 23, 0, 23)
                 IconEnable.ZIndex = 2
-                IconEnable.Image = nil
+                IconEnable.Image = "rbxassetid://91239359890118"
                 IconEnable.ImageTransparency = 1
                 IconEnable.ImageColor3 = themes.TextColor
                 Objects[IconEnable] = "TextColor"
@@ -1029,7 +1029,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 IconDisable.Position = UDim2.new(0.949999988, 0, 0.5, 0)
                 IconDisable.Size = UDim2.new(0, 23, 0, 23)
                 IconDisable.ZIndex = 2
-                IconDisable.Image = nil
+                IconDisable.Image = "rbxassetid://91239359890118"
                 IconDisable.ImageColor3 = themes.TextColor
                 Objects[IconDisable] = "TextColor"
                 IconDisable.ImageRectOffset = Vector2.new(628, 420)
@@ -1150,7 +1150,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 ArrowIcon.Position = UDim2.new(0.949999988, 0, 0.5, 0)
                 ArrowIcon.Size = UDim2.new(0, 23, 0, 23)
                 ArrowIcon.ZIndex = 2
-                ArrowIcon.Image = nil
+                ArrowIcon.Image = "rbxassetid://91239359890118"
                 ArrowIcon.ImageColor3 = themes.TextColor
                 Objects[ArrowIcon] = "TextColor"
                 
@@ -1480,7 +1480,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 SliderIcon.Position = UDim2.new(0.949999988, 0, 0.5, 0)
                 SliderIcon.Size = UDim2.new(0, 23, 0, 23)
                 SliderIcon.ZIndex = 2
-                SliderIcon.Image = nil
+                SliderIcon.Image = "rbxassetid://91239359890118"
                 SliderIcon.ImageColor3 = themes.TextColor
                 Objects[SliderIcon] = "TextColor"
             
@@ -1637,7 +1637,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 TextBoxIcon.Position = UDim2.new(0.949999988, 0, 0.75, 0)
                 TextBoxIcon.Size = UDim2.new(0, 20, 0, 20)
                 TextBoxIcon.ZIndex = 2
-                TextBoxIcon.Image = nil
+                TextBoxIcon.Image = "rbxassetid://91239359890118"
                 TextBoxIcon.ImageColor3 = themes.TextColor
                 Objects[TextBoxIcon] = "TextColor"
 
@@ -1675,5 +1675,6 @@ end
 
 
 return CFAHub
+
 
 
