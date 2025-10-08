@@ -149,7 +149,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         ScrollBar = Color3.fromRGB(149, 149, 149),
         NotiBackground = Color3.fromRGB(0, 0, 0),
         Glow = Color3.fromRGB(79, 195, 247),
-        Logo = "rbxassetid://7409401226"
+        Logo = nil
     }
 
     table.insert(CFAHub, title)
@@ -1480,7 +1480,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 SliderIcon.Position = UDim2.new(0.949999988, 0, 0.5, 0)
                 SliderIcon.Size = UDim2.new(0, 23, 0, 23)
                 SliderIcon.ZIndex = 2
-                SliderIcon.Image = "rbxassetid://7072987508"
+                SliderIcon.Image = nil
                 SliderIcon.ImageColor3 = themes.TextColor
                 Objects[SliderIcon] = "TextColor"
             
@@ -1675,3 +1675,4 @@ end
 
 
 return CFAHub
+
